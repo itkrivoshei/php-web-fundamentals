@@ -1,94 +1,59 @@
 # PHP Web Fundamentals
 
 ![PHP](https://img.shields.io/badge/PHP-CLI%20%2F%20web-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-browser-F7DF1E?style=flat-square&logo=javascript&logoColor=000000)
-![SQL](https://img.shields.io/badge/SQL-exercises-336791?style=flat-square)
+![JavaScript](https://img.shields.io/badge/JavaScript-browser-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
+![SQL](https://img.shields.io/badge/SQL-query%20set-336791?style=flat-square)
 [![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)](LICENSE)
 
-Archived educational repository with PHP, HTML, CSS, JavaScript, and SQL fundamentals from a 42 School / School 21 web bootcamp.
+Standalone PHP, HTML, CSS, JavaScript, and SQL files organized by topic and runnable with the PHP CLI or the built-in PHP server.
 
-## Stack
+## Contents
 
-- PHP scripts and basic web handlers
-- HTML and CSS exercises
-- Browser JavaScript exercises
-- SQL query exercises
+| Folder | Focus |
+| --- | --- |
+| `Day00` | HTML/CSS layouts, responsive pages, browser JavaScript |
+| `Day01` | PHP CLI scripts, strings, arrays, parameters |
+| `Day02` | Dates, time parsing, text processing |
+| `Day03` | GET parameters, cookies, raw output, protected pages |
+| `Day04` | Account creation, auth flow, login/logout, chat pages |
+| `Day05` | SQL query files |
+| `Day07` | Object-oriented PHP classes |
+| `Day09` | Browser JavaScript interactions |
 
-## Scope
+## Run PHP Files
 
-- `Day00` — HTML, CSS, responsive layouts, basic JavaScript
-- `Day01` — PHP syntax, arrays, strings, command-line scripts
-- `Day02` — PHP date, time, and text-processing exercises
-- `Day03` — PHP web basics, GET parameters, cookies, raw output, protected pages
-- `Day04` — simple user creation, authentication, login/logout, chat exercises
-- `Day05` — SQL query exercises
-- `Day07` — object-oriented PHP exercises
-- `Day09` — browser-based JavaScript exercises
-
-## Requirements
-
-- PHP CLI for command-line exercises and syntax checks
-- PHP built-in server or another local web server for browser-based PHP exercises
-- A browser for HTML/CSS/JavaScript exercises
-
-No package manager install step is required.
-
-## Run
-
-Run a CLI PHP exercise:
+CLI example:
 
 ```bash
 php Day01/ex00/hw.php
 ```
 
-Start a local PHP server from the repository root:
+Local web server:
 
 ```bash
 php -S localhost:8000
 ```
 
-Then open an exercise path in the browser, for example:
+Then open a path such as:
 
 ```text
 http://localhost:8000/Day04/ex04/index.html
 ```
 
-## Verify
-
-Check PHP files for syntax errors:
+## Validate PHP Syntax
 
 ```bash
 sh scripts/check.sh
 ```
 
-There is no build step. This repository is a collection of standalone exercises, not a packaged application.
+The script runs `php -l` against every PHP file in the repository.
 
-## Project structure
+## Runtime Notes
 
-```text
-.
-├── Day00/
-├── Day01/
-├── Day02/
-├── Day03/
-├── Day04/
-├── Day05/
-├── Day07/
-├── Day09/
-├── scripts/
-│   └── check.sh
-├── LICENSE
-└── README.md
-```
-
-## Notes
-
-Some exercises use bootcamp-style constraints and intentionally simple storage/authentication patterns. They are kept as educational exercises and are not production PHP examples.
-
-Some Day04 exercises may generate local runtime data such as `private/` or `passwd`; these files are ignored by `.gitignore`.
+- No Composer install step is required.
+- Some Day04 flows create local runtime files such as `private/` or `passwd`; those files are ignored.
+- Auth examples use intentionally simple file-backed storage and are not production authentication patterns.
 
 ## License
 
-Licensed under the [GNU General Public License v3.0](LICENSE).
-
-## How to run\n\nPlease see project files for instructions.\n
+[GPL-3.0](LICENSE)
