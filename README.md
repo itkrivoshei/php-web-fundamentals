@@ -90,3 +90,5 @@ Some Day04 exercises may generate local runtime data such as `private/` or `pass
 ## License
 
 Licensed under the [GNU General Public License v3.0](LICENSE).
+
+## How to run\n\nPlease see project files for instructions.\n
