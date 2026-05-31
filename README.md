@@ -7,6 +7,8 @@
 
 Standalone PHP, HTML, CSS, JavaScript, and SQL files organized by topic and runnable with the PHP CLI or the built-in PHP server.
 
+> Maintenance status: archived learning reference. This repository is kept public as a record of older web fundamentals work, but it is not part of the active DevOps portfolio.
+
 ## Contents
 
 | Folder | Focus |
