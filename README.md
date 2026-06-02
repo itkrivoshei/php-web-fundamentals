@@ -1,11 +1,16 @@
+<div align="center">
+
 # PHP Web Fundamentals
 
-![PHP](https://img.shields.io/badge/PHP-CLI%20%2F%20web-777BB4?style=flat-square&logo=php&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-browser-F7DF1E?style=flat-square&logo=javascript&logoColor=000)
-![SQL](https://img.shields.io/badge/SQL-query%20set-336791?style=flat-square)
-[![License: GPL-3.0](https://img.shields.io/badge/license-GPL--3.0-blue?style=flat-square)](LICENSE)
-
 Standalone PHP, HTML, CSS, JavaScript, and SQL files organized by topic and runnable with the PHP CLI or the built-in PHP server.
+
+[![PHP checks](https://img.shields.io/github/actions/workflow/status/itkrivoshei/php-web-fundamentals/check.yml?branch=main&style=for-the-badge&label=php%20checks&logo=githubactions&logoColor=white)](https://github.com/itkrivoshei/php-web-fundamentals/actions/workflows/check.yml)
+[![CodeQL](https://img.shields.io/github/actions/workflow/status/itkrivoshei/php-web-fundamentals/codeql.yml?branch=main&style=for-the-badge&label=codeql&logo=github&logoColor=white)](https://github.com/itkrivoshei/php-web-fundamentals/actions/workflows/codeql.yml)
+[![PHP](https://img.shields.io/badge/PHP-CLI%20%2F%20web-777bb4?style=for-the-badge&logo=php&logoColor=white)](Day01)
+[![JavaScript](https://img.shields.io/badge/JavaScript-browser-f7df1e?style=for-the-badge&logo=javascript&logoColor=000)](Day09)
+[![License](https://img.shields.io/github/license/itkrivoshei/php-web-fundamentals?style=for-the-badge)](LICENSE)
+
+</div>
 
 > Maintenance status: archived learning reference. This repository is kept public as a record of older web fundamentals work, but it is not part of the active DevOps portfolio.
 
